@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Enter some personal information, then type some stuff.</p>
+  <form id="survey-form">
+    <div id="inputs">
+      <label id="name-label" class="inputLabels">Name...</label>
+      <input id="name" class="inputs" required 
+              placeholder="Your name goes here">
+      <br><br>
+      <label id="email-label" class="inputLabels">Email Address...</label>
+      <input id="email" type="email" class="inputs" required placeholder="Your email goes here">
+      <br><br>
+      <label id="number-label" class="inputLabels">Age...</label>
+      <input id="number" type="number" class="inputs" placeholder="Your age goes here" min="1" max="120">
+      </div>
+    </div>
+  <br>
+    <label for="dropdown">Quick, choose One</label>
+    <select id="dropdown">
+      <option value="thing 1">This Thing!!</option>
+      <option value="thing 2">But Also This!!!</option>
+      <option value="thing 3">One</option>
+    </select><br>
+    <div id="radios">
+    <label for="bluePill">
+      <input type="radio" name="bluePill-redPill" value="bluePill"> <b class="blueText">Blue</b> Pill</label>
+    <label for="redPill">
+      <input type="radio" name="bluePill-redPill" value="redPill"> <b class="redText">Red</b> Pill</label>
+      </div><br>
+    <div id="checkboxes">
+    <label for="checkbox1">
+      <input type="checkbox" name="checkbox1-checkbox2" value="checkbox1"> I have provided my information</label><br><br>
+    <label for="checkbox2">
+      <input type="checkbox" name="checkbox1-checkbox2" value="checkbox2"> I'm now going to type some stuff</label></div><br>
+    <textarea cols="10" rows="4" placeholder="" onclick="this.select()">Once I delete this 
+    </textarea><br>
+    <button id="submit" type="submit"><b>Submit</b>     </button>
+  </form>
+</body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

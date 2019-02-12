@@ -1,0 +1,61 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  background:DarkSeaGreen;
+  text-align:center;
+}
+form {
+  background:lightblue;
+  margin:auto 30%;
+  padding:25px;
+  border-radius:5px;
+}
+#submit {
+  border:1px black solid;
+  background-color:mediumseagreen;
+  border-radius:1px;
+  width:80px;
+  margin:10px;
+}
+#dropdown{
+  margin:15px;
+}
+h1 {
+  font-size:40px;
+}
+#description {
+  font-size:20px;
+}
+#radios {
+  margin:15px;
+}
+#checkboxes {
+  margin-left:25%;
+  text-align:left;
+}
+textarea {
+  border:1px black solid;
+  resize:none;
+  width:100px;
+  margin:15px;
+  text-align:center;
+  overflow:hidden;
+}
+.redText{
+  color:red;
+}
+.blueText{
+  color:blue;
+}
+.inputLabels{
+  display:inline-block;
+  width:140px;
+  text-align:right;
+}
+.inputs{
+  border:none;
+  border-bottom:2px black solid;
+  background-color:lightblue;
+  height:20px;
+}
+
+
